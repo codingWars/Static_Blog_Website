@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>STATIC BLOG WEBSITE - MARK ZUKERBERG</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Play:wght@700&family=Roboto+Slab:wght@800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/logo-web.png"></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="blog.html.html">BLOG</a></li>
+                    <li><a href="contact.html.html">CONTACT</a></li>
+                </ul>
+            </div>
+                       
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>       
+        <h1>Blog</h1>
+    </section>
+<!-------------blog--------------->
+<section class="blog-content">
+   <div class="row">
+      <div class="blog-left">
+          <img src="Images/MZBK.jfif">
+          <h2>5-Life Skills We Can Learn From Mark Zuckerberg.</h2>
+          <p>Facebooking continues to be an integral part of people’s everyday life. Facebook is not only the largest online social network in the world but also plays an active role in connecting people from distinct geographical regions and with diverse cultural backgrounds. Today Facebook is among the Big Four. In 2004 the first version of Facebook was launched. At that time Mark Zuckerberg, CEO, and co-founder of Facebook himself didn’t know where this project would take him. Back in 2002, no one could imagine that his unprecedented career path would change the way we communicate and make friends.<br><sh>Here are the top 5 life skills of Mark Zuckerberg that you can follow:</sh><br>
+          <br><h2>#1. Be Passionate About What You Do.</h2><br>Burning desire is the cause of all achievements. The same passion has enabled Facebook to innovate continuously and overcome every obstacle that came it's way. You need to be mentally and physically involved in whatever you are willing to do.<br><h2>#2. Explore Before You Commit</h2><br>One of the most prevalent mistakes today’s young generation (would-be entrepreneurs ) make is that they blindly jump on the bandwagon and follow every popular trend. They adopt everything that is making big waves without diligent research. Mark Zuckerberg has a completely different take on this. He suggests that one should be very selective while doing something. Explore and do your research before signing a business deal/project otherwise you could land into trouble.<br><h2>#3. Dare to Risk, But Calculated Risk.</h2><br>According to Zuckerburg, “The biggest risk is not taking any risk.” Although, you should be ready to break the glass ceiling and take risks, they should be calculated ones. Making business commitments without proper research is a recipe for disaster.He advises that one should always do a risk assessment before committing or quitting something.<br><h2>#4.Never Stop Learning & Reading.</h2><br>Stay in Learning Mode All the Time. It was Zuckerberg's desire to learn new things that led to the creation of Facebook. He shared he tries to read a book every two weeks, and even takes on yearly challenges that really give him time to dive deep into a topic or expertise. From learning Mandarin Chinese to running one mile every day and building an AI for his home, he uses these mile markers to keep him focused and inspired.The list goes on and on. Despite having touched the upper Echelon in his niche, he still signs up for courses to stay abreast of the latest developments in the world of technology.<br><h2>#5.Avoid spending mental energy on unnecessary Decision Making.</h2><br>Zuckerberg wears the same (sports jeans, sneakers, and a gray t-shirt ) damn thing every day. Why this approach, when really, he could purchase any type of fashion brand he wants? Zuckerberg revealed he wears the same clothes over and over again because he wants to limit the time he spends making "frivolous" decisions so he can concentrate on real work. He mentions unnecessary decision making wastes, time on non-productive things rather than on meaningful contributions. It drains our mental energy 🔋and exhausts us with zero output.</p>
+        
+      </div>
+      <div class="blog-right">
+          <h3>Company Owned and Its Year</h3>
+          <div>
+              <span>Instagram</span>
+              <span>2012</span>
+          </div>
+          <div>
+              <span>WhatsApp</span>
+              <span>2014</span>
+          </div>
+          <div>
+              <span>Oculus VR</span>
+              <span>2014</span>
+          </div>
+          <div>
+              <span>Onavo</span>
+              <span>2013</span>
+          </div>
+          <div>
+              <span>Beluga</span>
+              <span>2011</span>
+          </div>
+      </div>
+   </div>
+</section>
+
+<!-------------footer--------------->
+<section class="footer">
+   <h4>About Us</h4>
+   <p>We work together to design, create and produce work that we are proud of for folks that we believe in.</p>
+   <div class="icons">
+       <i class="fab fa-facebook-square"></i>
+       <i class="fab fa-instagram"></i>
+       <i class="fab fa-twitter"></i>
+       <i class="fab fa-linkedin"></i>
+   </div>
+   <p>Made with <i class="fab fa-heart-o"></i> by Dev</p>
+    
+</section>
+
+
+
+<!------JS for Toggle Menu------->
+    <script>
+        var navLinks =document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px"
+        }
+    </script> 
+</body>
+</html>

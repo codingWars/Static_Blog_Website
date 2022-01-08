@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>STATIC BLOG WEBSITE - MARK ZUKERBERG</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Play:wght@700&family=Roboto+Slab:wght@800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/logo-web.png"></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="blog.html.html">BLOG</a></li>
+                    <li><a href="contact.html.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>       
+        <h1>About Us</h1>
+    </section>
+
+<!------Footer ------->
+<section class="footer">
+   <h4>About Us</h4>
+   <p>head to the start and i like you head to the start and i like you <br>head to the start andhead to the start and i like you head to the start </p>
+   <div class="icons">
+       <i class="fab fa-facebook-square"></i>
+       <i class="fab fa-instagram"></i>
+       <i class="fab fa-twitter"></i>
+       <i class="fab fa-linkedin"></i>
+   </div>
+   <p>Made with <i class="fab fa-heart-o"></i> by Dev</p>
+    
+</section>
+
+
+
+<!------JS for Toggle Menu------->
+    <script>
+        var navLinks =document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px"
+        }
+    </script>
+    
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
